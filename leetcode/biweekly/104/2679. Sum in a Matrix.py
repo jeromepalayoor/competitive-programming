@@ -20,8 +20,3 @@ class Solution(object):
             sums += max(i)
 
         return sums
-    
-# thinking process:
-# 1. sort each row
-# 2. transpose the matrix
-# 4. sum the largest numbers of each row

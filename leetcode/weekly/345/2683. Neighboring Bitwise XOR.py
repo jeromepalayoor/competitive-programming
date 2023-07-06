@@ -8,6 +8,3 @@ class Solution(object):
         """
 
         return sum(derived)%2 == 0
-    
-# thinking process:
-# if the array is valid, then the sum of the array must be even

@@ -26,8 +26,3 @@ class Solution(object):
                 p += self.dfs(nx, ny, grid,n,m)
 
         return p
-    
-# thinking process:
-# from any water position we use depth first search to find the maximum number of fish we can catch
-# then compare with other water positions
-# return the maaximum 

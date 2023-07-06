@@ -24,4 +24,3 @@ class Solution(object):
             res = max(res, pre[i] | nums[i] << k | suf[i])
 
         return res
-    

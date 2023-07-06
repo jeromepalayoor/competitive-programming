@@ -49,6 +49,3 @@ class Graph(object):
                     heapq.heappush(pq, (dist[v], v))
 
         return -1
-    
-# thinking process:
-# implement dijkstra's algorithm

@@ -8,6 +8,3 @@ class Solution(object):
         """
         
         return sum([int(x[-4:-2])>60 for x in details])
-    
-# thinking process:
-# common sense

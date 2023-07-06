@@ -18,7 +18,3 @@ class Solution(object):
             res[i] = prevsum
 
         return res
-    
-# thinking process:
-# since the prev max will change depending on the curr value, just check for that, dont need to loop through the whole array again
-# the prev sum will be the sum of the prev max and the curr value

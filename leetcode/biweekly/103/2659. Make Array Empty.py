@@ -17,6 +17,3 @@ class Solution(object):
             ans += (map[nums[i]] > map[nums[i+1]]) * (n - i) + (map[nums[i]] <= map[nums[i+1]])
             
         return ans
-    
-# thinking process:
-# think backwards

@@ -25,6 +25,3 @@ class Solution(object):
                 losers.append(i+1)
         
         return losers
-    
-# thinking process:
-# simulate the game and find losers

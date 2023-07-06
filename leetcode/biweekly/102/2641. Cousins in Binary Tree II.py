@@ -42,7 +42,3 @@ class Solution(object):
             nodes = tmp
 
         return root
-    
-
-# thinking process:
-# visualise it for better understanding (draw it out on paper if u no understanding)

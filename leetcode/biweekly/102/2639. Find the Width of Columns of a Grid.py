@@ -17,7 +17,3 @@ class Solution(object):
                 res[j] = max(res[j], len(str(grid[i][j])))
 
         return res
-    
-# thinkings process:
-# loop through each row and column, and find the max length of the string of that cell of each column
-# inefficent tho

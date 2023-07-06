@@ -17,11 +17,3 @@ class Solution(object):
             cost[i] += max(cost[left], cost[right])
 
         return output
-    
-# thinking process:
-# since want minimum adding to make all path equal
-# so go from bottom up (backwards)
-# for each node, add the difference between its children
-# and add the max of its children to itself
-# it will do this for all nodes, and the root will have the max value (which is the value of the equal path)
-# return the output

@@ -55,9 +55,3 @@ class Solution(object):
                 output.append(output[-1]+c)
 
         return output
-    
-
-# thinking process:
-# im surprised that this solution passed all test cases at the first try
-# i think this is a very naive solution, but it works
-# i think the time complexity is O(n^2) but since n<=50 its not that bad

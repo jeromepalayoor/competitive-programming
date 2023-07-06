@@ -23,11 +23,3 @@ class Solution(object):
             output.append(len(tmp) - len(tmp2))
 
         return output
-
-# thinking process:
-# loop through each number in list
-# for each number, loop through all numbers before it
-# if the number is not in the list, add it
-# do the same for all numbers after it
-# then subtract the length of the list of numbers after it from the list of numbers before it
-# this will give the distinct difference array for each number

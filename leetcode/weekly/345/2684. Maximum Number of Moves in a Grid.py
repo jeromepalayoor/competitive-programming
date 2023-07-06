@@ -40,7 +40,3 @@ class Solution(object):
 
 
         return ans - 1
-    
-
-# thinking process:
-# dp go from right to left

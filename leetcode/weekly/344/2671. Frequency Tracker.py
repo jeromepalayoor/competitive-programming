@@ -41,10 +41,3 @@ class FrequencyTracker(object):
         """
 
         return self.frequency[frequency] > 0
-        
-
-# thinking process:
-# use two dictionaries, one for frequency, one for keeping track of the numbers
-# add a number: add it to the number dictionary, and add 1 to the frequency dictionary
-# delete a number: subtract 1 from the frequency dictionary, and subtract 1 from the number dictionary
-# check if a frequency exists: check if the frequency dictionary has a value greater than 0 for the frequency

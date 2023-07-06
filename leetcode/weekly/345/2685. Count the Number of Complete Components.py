@@ -44,6 +44,3 @@ class Solution(object):
             return 1
         
         return sum(complete(c) for c in clusters)
-    
-# thinking process:
-# dfs
