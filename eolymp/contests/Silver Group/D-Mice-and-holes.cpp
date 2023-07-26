@@ -1,3 +1,5 @@
+// https://www.eolymp.com/en/contests/34160/problems/401005
+
 #include <iostream>
 #include <cstdint>
 #include <cstdlib>

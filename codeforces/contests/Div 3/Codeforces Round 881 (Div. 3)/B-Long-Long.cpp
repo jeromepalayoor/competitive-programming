@@ -1,3 +1,5 @@
+// https://codeforces.com/contest/1843/problem/B
+
 #include <iostream>
 #include <cstdint>
 #include <cstdlib>

@@ -1,3 +1,5 @@
+# https://www.eolymp.com/en/contests/34160/problems/401006
+
 t = int(input())
 
 for i in range(t):

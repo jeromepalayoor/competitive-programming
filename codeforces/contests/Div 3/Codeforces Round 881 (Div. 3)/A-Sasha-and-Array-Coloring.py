@@ -1,3 +1,5 @@
+# https://codeforces.com/contest/1843/problem/A
+
 T = int(input())
 output = []
 for _ in range(T):

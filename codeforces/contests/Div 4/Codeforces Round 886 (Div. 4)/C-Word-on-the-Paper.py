@@ -1,3 +1,5 @@
+# https://codeforces.com/contest/1850/problem/C
+
 t = int(input())
 output = ""
 for _ in range(t):

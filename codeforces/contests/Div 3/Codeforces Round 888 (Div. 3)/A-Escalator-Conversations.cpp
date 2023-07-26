@@ -1,4 +1,4 @@
-// https://codeforces.com/contest/1843/problem/C
+// https://codeforces.com/contest/1851/problem/A
 
 #include <iostream>
 #include <cstdint>
@@ -6,6 +6,7 @@
 #include <cmath>
 #include <array>
 #include <vector>
+#include <algorithm>
 #define sz(a) ((int)((a).size()))
 #define char unsigned char
 
@@ -15,22 +16,22 @@ typedef long long ll;
 typedef long double ld;
 
 int solve() {
-	ll n = 0;
-	cin >> n;
-	ll sum = 0;
-	while(n!=1)
+	int n, m, k, H, count = 0;
+	cin >> n >> m >> k >> H;
+	for (int i = 0; i < n; ++i)
 	{
-		sum += n;
-		if (n%2 == 0)
+		int temp = 0;
+		cin >> temp;
+		int diff = abs(temp - H);
+		if (diff%k == 0)
 		{
-			n = n / 2;
-		}
-		else
-		{
-			n = (n - 1) / 2;
+			if (diff/k < m && temp != H)
+			{
+				count++;
+			}
 		}
 	}
-	cout << sum + 1<< endl;
+	cout << count << endl;
 	return 0;
 }
 
